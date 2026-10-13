@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+InkLegend_settings.json
+InkLegend_license.json
+node_modules/
+AGENT_TASK_*.md
+tasks *.txt
+/InkLegend.jsx
