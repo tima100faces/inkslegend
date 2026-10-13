@@ -17,20 +17,17 @@
   company/brand names). Rule 9 in `CLAUDE.md` keeps it that way.
 - Git history squashed into a single commit (owner decision): the old history contained the removed
   infrastructure data and an obsolete license scheme. Author is the GitHub noreply address.
-
 - README rewritten for the open-source launch (friendly intro + technical part re-checked against
   the code: Mac Scripts path is `Presets.localized/<locale>/Scripts`, names shorten to `P485 C`,
   detection limits, compatibility note). Mentions the third-party JSX Launcher panel
   (Adobe Exchange). GitHub repo description and topics set.
+- Neutral screenshots `img/legend.jpg` and `img/dialog.jpg` added (company "Acme Print", no local
+  paths). Cosmetic, optional: the dialog shot uses a custom technical-names list and non-English
+  swatch names from a real file, and does not match the legend shot.
 
-## Open-source launch checklist (repo is still PRIVATE)
-- [x] Neutral screenshots `img/legend.jpg` and `img/dialog.jpg` (company "Acme Print", no local paths;
-  the first versions showed a real company logo/name and a user path and were replaced).
-  Cosmetic, optional: the dialog shot lists a custom technical-names list and non-English swatch
-  names from a real file, and does not match the legend shot.
-- [x] README pushed; release `v1.1.0` with `InkLegend.jsx` attached (created while the repo is private).
-- [ ] Owner to confirm the employer is fine with open-sourcing (the tool was built for work use).
-- [ ] Owner flips the repo to public.
+## Release state
+Repo is **public** since 2026-10-13. Release `v1.1.0` (tag on the root commit) has `InkLegend.jsx`
+attached. From here on: normal commits on top (new features only).
 
 ## Verified
 Run in Illustrator 2026 on a temporary document (settings isolated): checkbox on/off, global
